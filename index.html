@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-3</title>
+    <style>
+        body{
+            margin: 0%;
+            background-image: url("background.jpg");
+
+                     
+
+        }
+        h1{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aqua;
+            padding: 8px;
+        }
+
+        
+        .container {
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+
+        .product{
+            padding: 20px;
+            width: 250px;
+            height: 250px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom:6%;
+        }
+
+        figcaption{
+            font-size: large;
+            font-weight: bold;
+        }
+
+        button{
+            padding: 4px;
+        }
+
+        button:hover{
+            background-color    : aqua;
+            transform:scale(1.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        h2{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 8px;
+            background-color: black;
+            color: white;
+        }
+        img:hover{
+            transform:scale(1.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        img{
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .end{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            background-color: black;
+            padding: 150px;
+        }
+
+        .details{
+            color: hsl(120, 89%, 43%);
+            margin: -12px;
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            font-size: larger;
+            padding: 0px;
+        }
+
+        h4{
+            font-size: 40px;
+            padding-bottom: 0%;
+            margin: 0%;
+        }
+
+        a{
+            text-decoration: none;
+            color: hsl(120, 89%, 43%);
+            transition: transform 0.2s ease-in-out;
+        }
+        a:hover{
+            transform: scale(1.1);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .child1{
+            justify-content: space-between;
+            margin-left: 20%;
+        }
+        
+    
+
+        
+    </style>
+</head>
+<body>
+    <h1>Delicious Resturent</h1>
+
+    
+    <h2>Biryani's</h2>
+
+    
+    <div class="container">
+        <div class="product">
+            <img src="biryani.jpg" width="90%" height="90%"><br><br>
+            <figcaption>Chicken Biryani - 220/-</figcaption><br>
+            <button>Add to cart</button>
+        </div>
+
+        <div class="product">
+            <img src="vegbiryani.jpg" width="120%" height="90%"><br><br>
+            <figcaption>Veg Biryani - 190/-</figcaption><br>
+            <button>Add to cart</button>
+        </div>
+
+        <div class="product">
+            <img src="muttonbiryani.jpg" width="120%" height="90%"><br><br>
+            <figcaption>Mutton Biryani - 280/-</figcaption><br>
+            <button>Add to cart</button>
+        </div>
+    </div>
+
+    <h2>Fast Food</h2>
+
+    <div class="container">
+        <div class="product">
+            <img src="chickenmanchuria.jpg" width="90%" height="90%"><br><br>
+            <figcaption>Chicken Manchuria - 100/-</figcaption><br>
+            <button>Add to cart</button>
+        </div>
+
+        <div class="product">
+            <img src="chickennoodles.jpg" width="120%" height="90%"><br><br>
+            <figcaption>Chicken Noodles - 80/-</figcaption><br>
+            <button>Add to cart</button>
+        </div>
+
+        <div class="product">
+            <img src="chickenrice.jpg" width="120%" height="90%"><br><br>
+            <figcaption>chicken Rice - 80/-</figcaption><br>
+            <button>Add to cart</button>
+        </div>
+    </div>
+
+    <h2>Deserts</h2>
+
+    <div class="container">
+        <div class="product">
+            <img src="browine.jpg" width="90%" height="90%"><br><br>
+            <figcaption>Chocolate Browine - 150/-</figcaption><br>
+            <button>Add to cart</button>
+        </div>
+
+        <div class="product">
+            <img src="applepie.jpg" width="120%" height="90%"><br><br>
+            <figcaption>Apple Pie - 120/-</figcaption><br>
+            <button>Add to cart</button>
+        </div>
+
+        <div class="product">
+            <img src="carrotcake.jpg" width="120%" height="90%"><br><br>
+            <figcaption>Carrot Cake - 200/-</figcaption><br>
+            <button>Add to cart</button>
+        </div>
+    </div>
+
+    <h2>Milk Shakes</h2>
+
+    <div class="container">
+        <div class="product">
+            <img src="oreo.webp" width="90%" height="90%"><br><br>
+            <figcaption>Oreo Milk Shake - 120/-</figcaption><br>
+            <button>Add to cart</button>
+        </div>
+
+        <div class="product">
+            <img src="strawberry.webp" width="120%" height="90%"><br><br>
+            <figcaption>Strawberry - 150/-</figcaption><br>
+            <button>Add to cart</button>
+        </div>
+
+        <div class="product">
+            <img src="banana.jpg" width="120%" height="90%"><br><br>
+            <figcaption>Banana Cream Pie - 150/-</figcaption><br>
+            <button>Add to cart</button>
+        </div>
+    </div>
+
+    <div class="end" >
+        <div class="child1">
+            <div class="details">
+                <h4>Our Office</h4>
+            </div>
+    
+            <div class="details">
+                <img src="location.webp" height="35 px" width="">
+                <p>Hyderabad</p>   
+            </div>
+    
+            <div class="details">
+                <img src="phone.png" height="20px" width="">
+                <p>  +91 8340019305</p>
+            </div>
+    
+            <div class="details">
+                <img src="mail.png" height="20px" width="">
+                <p>info@example.com</p>
+            </div><br>
+    
+            <div class="details" style="gap: 16px;">
+                <img src="twitter.png" height="20px">
+                <img src="fb.png" height="30px">
+                <img src="yt.png" height="32px">
+                <img src="github.webp" height="34px">
+            </div><br><br><br><br>
+        </div>
+
+        <div class="child1">
+            <div class="details">
+                <h4>Quick Links</h4>
+            </div>
+    
+            <div class="details">
+                <img src="arrow.png" height="18px" width="">
+                <a href="index.html">
+                    <p>About</p>            
+                </a>
+            </div>
+    
+            <div class="details">
+                <img src="arrow.png" height="18px" width="">
+                <a href="tel:+918340019305">
+                    <p>Contact Us</p>
+                </a>
+            </div>
+    
+            <div class="details">
+                <img src="arrow.png" height="18px">
+                <a href="index.html">
+                    <p>Our Service</p>
+                </a>
+            </div>
+    
+            <div class="details">
+                <img src="arrow.png" height="18px">
+                <a href="index.html">
+                    <p>Terms&Conditions</p>
+                </a>
+            </div>
+    
+            <div class="details">
+                <img src="arrow.png" height="18px">
+                <a href="mailto:info@example.com">
+                    <p>Support</p>
+                </a>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
